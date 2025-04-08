@@ -2,28 +2,29 @@
 **/[Bb]in/
 **/[Oo]bj/
 
-# Ignore all .csproj files recursively
+# Ignore all .csproj files
 **/*.csproj
 
-# Ignore all .sln (solution) files
-**/*.sln
+# Keep .sln files (just to clarify — .sln is NOT ignored)
+# DO NOT include **/*.sln in ignore list
 
-# Ignore all user-specific and IDE-related files recursively
+# Ignore user-specific and IDE-related files
 **/*.user
 **/*.suo
 **/*.vspx
 **/*.vsmdi
-**/.vs/
-**/.vscode/
-**/.idea/
+.vs/
+.vscode/
+.idea/
 
-# Ignore packages, build artifacts and NuGet outputs
+# Ignore NuGet and build artifacts
+packages/
 **/packages/
 **/*.nupkg
 **/artifacts/
 
 # Ignore test results
-**/TestResults/
+TestResults/
 **/*.trx
 **/*.coverage
 **/*.testsettings
@@ -33,7 +34,7 @@
 **/*.sqlite
 **/*.sqlite3
 
-# Ignore design and media files
+# Ignore design/media files
 Design/
 **/*.psd
 **/*.ai
@@ -55,12 +56,12 @@ Design/
 **/*.bak
 **/*.swp
 **/*.swo
-**/.DS_Store
-**/Thumbs.db
-**/ehthumbs.db
+.DS_Store
+Thumbs.db
+ehthumbs.db
 
-# Ignore environment and config secrets
-**/.env
-**/.env.*
-**/secrets.json
-**/appsettings.*.local.json
+# Ignore environment and secrets
+.env
+.env.*
+secrets.json
+appsettings.*.local.json
