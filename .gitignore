@@ -2,13 +2,12 @@
 **/[Bb]in/
 **/[Oo]bj/
 
-# Ignore all .csproj files
-**/*.csproj
+# Don't ignore solution or project files
+# (Remove these lines to keep them in Git)
+# **/*.csproj
+# **/*.sln
 
-# Keep .sln files (just to clarify — .sln is NOT ignored)
-# DO NOT include **/*.sln in ignore list
-
-# Ignore user-specific and IDE-related files
+# Ignore user-specific and IDE-related files recursively
 **/*.user
 **/*.suo
 **/*.vspx
@@ -17,7 +16,7 @@
 .vscode/
 .idea/
 
-# Ignore NuGet and build artifacts
+# Ignore packages, build artifacts and NuGet outputs
 packages/
 **/packages/
 **/*.nupkg
@@ -34,7 +33,7 @@ TestResults/
 **/*.sqlite
 **/*.sqlite3
 
-# Ignore design/media files
+# Ignore design and media files
 Design/
 **/*.psd
 **/*.ai
@@ -60,7 +59,7 @@ Design/
 Thumbs.db
 ehthumbs.db
 
-# Ignore environment and secrets
+# Ignore environment and config secrets
 .env
 .env.*
 secrets.json
