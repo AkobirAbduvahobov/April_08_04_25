@@ -1,12 +1,139 @@
-# Add files/folders to ignore
-
+# Build folders
 [Bb]in/
 [Oo]bj/
-![Bb]in/Designs/*
-.vs
-*.suo
+[Ll]og/
+[Ll]ogs/
+
+# Rider
+.idea/
+
+# Visual Studio
+.vs/
 *.user
+*.suo
+*.sdf
+*.dbmdl
+*.opendb
+*.VC.db
 
+# Visual Studio Code
+.vscode/
+.history/
+
+# .NET specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+*.nuproj
+packages/
+*.vsix
+
+# Paket
+.paket/
+paket-files/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# StyleCop
+StyleCopReport.xml
+
+# TeamCity
+_TeamCity*
+
+# User-specific files
+*.userosscache
+*.sln.docstates
+
+# IIS
+*.vspscc
+*.vssscc
+*.publish.xml
+PublishProfiles/
+
+# SQL
+*.mdf
+*.ldf
+*.ndf
+
+# Backup & temporary files
+*~
+*.tmp
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+*.log
+
+# DotCover
+.idea/
+*.dotCover
+
+# Design files
 Design/Text_logo-xd.psd
+![Bb]in/Designs/*
 
+# Xamarin
 Xamimg/packages/
+*.apk
+*.ap_
+*.aab
+*.ipa
+*.plist
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdata/
+*.entitlements
+*.mobileprovision
+*.dsym
+*.crash
+*.nib
+*.storyboardc
+*.svg
+*.axml
+*.jar
+*.dex
+*.class
+*.so
+*.dll
+*.pdb
+*.mdb
+*.apk.*
+*.aab.*
+
+# MAUI
+Platforms/*/bin/
+Platforms/*/obj/
+
+# Local DB (LiteDB, SQLite, etc.)
+*.db
+*.sqlite
+*.sqlite3
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+*.testrunconfig
+
+# Others
+.env
+.env.*
+secrets.json
+appsettings.*.local.json
