@@ -13,11 +13,13 @@
 
         public static void DoSmth()
         {
-            Console.WriteLine("eslab qol");
-            Console.WriteLine("eslab qol");
-            Console.WriteLine("eslab qol");
-            Console.WriteLine("eslab qol");
-            Console.WriteLine("eslab qol");
+            var res1 = 45 + 45;
+            var res2 = 45 + 45;
+            var res3 = 45 + 45;
+            var res4 = 45 + 45;
+            var res5 = 45 + 45;
+            var res6 = 45 + 45;
+            var res7 = 45 + 45;
         }
     }
 }
