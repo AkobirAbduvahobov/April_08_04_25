@@ -13,7 +13,11 @@
 
         public static void DoSmth()
         {
-
+            Console.WriteLine("eslab qol");
+            Console.WriteLine("eslab qol");
+            Console.WriteLine("eslab qol");
+            Console.WriteLine("eslab qol");
+            Console.WriteLine("eslab qol");
         }
     }
 }
